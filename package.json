@@ -1,0 +1,12 @@
+{
+  "name": "select-by",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {},
+  "author": "nazarja",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "typescript": "^5.5.4"
+  }
+}
