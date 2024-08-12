@@ -123,4 +123,4 @@ class SelectBy implements ISelectBy {
 }
 
 const by: SelectBy = new SelectBy();
-export default by; 
+export default by;

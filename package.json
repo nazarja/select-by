@@ -2,11 +2,20 @@
   "name": "select-by",
   "version": "1.0.0",
   "main": "./dist/index.js",
-  "scripts": {},
+  "types": "./src/index.d.ts",
   "author": "nazarja",
   "license": "MIT",
+  "description": "A tiny, expressive yet concise JavaScript DOM selector library",
   "devDependencies": {
     "@types/node": "^22.2.0",
     "typescript": "^5.5.4"
-  }
+  },
+  "repository": {    
+    "type": "git",    
+    "url": "git+https://github.com/nazarja/select-by.git"  
+  },  
+  "bugs": {    
+    "url": "https://github.com/nazarja/select-by/issues"  
+  },  
+  "homepage": "https://github.com/nazarja/select-by/#readme"
 }
