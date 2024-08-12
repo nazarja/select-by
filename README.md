@@ -2,6 +2,9 @@
 
 SelectBy aims to be a concise yet expressive DOM selector library that takes inspiration from jQuery's ability to shorthand DOM element selections. Where SelectBy differs is that each DOM selector makes use of methods which describe the selection taking place, making the intention clear and also taking the hassle out of writing out the lengthy full vanilla JavaScript selector.
 
+## Landing Page
+https://www.jsdelivr.com/package/gh/nazarja/select-by
+
 ## Installation
 #### npm module / browser module
 
@@ -21,7 +24,7 @@ jsdelvr
 
 github
 ```
-https://cdn.jsdelivr.net/gh/user/nazarja/dist/select-by.min.js
+<script src="https://cdn.jsdelivr.net/gh/user/nazarja/dist/select-by.min.js"></script>
 ```
 
 ## Return Values
