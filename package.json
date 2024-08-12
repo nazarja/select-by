@@ -1,21 +1,31 @@
 {
   "name": "select-by",
   "version": "1.0.0",
-  "main": "./dist/index.js",
+  "main": "./dist/select-by.js",
+  "module": "./dist/select-by.esm.js",
   "types": "./src/index.d.ts",
   "author": "nazarja",
   "license": "MIT",
   "description": "A tiny, expressive yet concise JavaScript DOM selector library",
+  "scripts": {
+    "build": "npx rollup --config"
+  },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/node": "^22.2.0",
+    "rollup": "^4.20.0",
+    "ts-loader": "^9.5.1",
+    "tslib": "^2.6.3",
     "typescript": "^5.5.4"
   },
-  "repository": {    
-    "type": "git",    
-    "url": "git+https://github.com/nazarja/select-by.git"  
-  },  
-  "bugs": {    
-    "url": "https://github.com/nazarja/select-by/issues"  
-  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazarja/select-by.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nazarja/select-by/issues"
+  },
   "homepage": "https://github.com/nazarja/select-by/#readme"
 }

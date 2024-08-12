@@ -3,7 +3,26 @@
 SelectBy aims to be a concise yet expressive DOM selector library that takes inspiration from jQuery's ability to shorthand DOM element selections. Where SelectBy differs is that each DOM selector makes use of methods which describe the selection taking place, making the intention clear and also taking the hassle out of writing out the lengthy full vanilla JavaScript selector.
 
 ## Installation
+#### npm module / browser module
+
+##### Node  
 `npm install select-by`
+
+- commonjs  
+`const by = require('select-by')`  
+- ecmascript modules  
+`import by from 'select-by'`
+
+##### Browser - place above your custom script files
+jsdelvr  
+```
+<script src="https://cdn.jsdelivr.net/npm/select-by@1.0.0/dist/select-by.js"></script>
+```
+
+github
+```
+https://cdn.jsdelivr.net/gh/user/nazarja/dist/select-by.min.js
+```
 
 ## Return Values
 Arrays are returned for operations that return multiple values and so they can be easily used with many array protoype methods.
@@ -16,8 +35,6 @@ Only 4 return values are returned throughout all the methods available.
 4. `an array of elements` : results on multiple result selectors
 
 ## Example Usage
-`import by from 'select-by'` 
-
 `const score = by.id('score')` <-- returns an element with the id of 'score'
 
 ## Methods
