@@ -23,7 +23,7 @@ https://www.jsdelivr.com/package/gh/nazarja/select-by
 ##### Browser - place above your custom script files
 jsdelvr  
 ```
-<script src="https://cdn.jsdelivr.net/npm/select-by@1.0.0/dist/select-by.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select-by@1.0.1/dist/select-by.min.js"></script>
 ```
 
 ## Return Values
