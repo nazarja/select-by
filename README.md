@@ -21,7 +21,8 @@ https://www.jsdelivr.com/package/gh/nazarja/select-by
 `import by from 'select-by'`
 
 ##### Browser - place above your custom script files
-jsdelvr  
+jsdelvr 
+The `by` variable will be available at the global window level.
 ```
 <script src="https://cdn.jsdelivr.net/npm/select-by@1.0.1/dist/select-by.min.js"></script>
 ```
